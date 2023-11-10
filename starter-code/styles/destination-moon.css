@@ -1,0 +1,107 @@
+
+
+.article-moon>*{
+    color: white;
+}
+.article-moon{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    top: 10rem;
+}
+
+.nav-planets{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.nav-planets  a{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+
+}
+.title-planet{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.title-planet b{
+    font-size: 8rem;
+}
+.center-title-planets{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.div-link-planets{
+    padding: 1rem;
+    cursor: pointer;
+}
+.div-link-planets:hover{
+    box-shadow: 0px .2rem 0px 0px rgba(255, 255, 255, 0.66);
+}
+
+.position-info-distance{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+.styles-info-distance{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.styles-info-time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.styles-info-distance >*{
+    text-align: center;
+}
+.styles-info-time >*{
+    text-align: center;
+}
+
+.moon-styles{
+    display: flex;
+    justify-content: center;
+}
+.moon-pick-elements > p{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin-bottom: 4rem;
+    font-size: 2rem;
+}
+.moon-pick-elements > img{
+    height: 25rem;
+    width: auto;
+}
+/* .div-dont-forget div{
+    display: flex;
+    justify-content: center;
+} */
+.div-dont-forget{
+
+    display: flex;
+    justify-content: center;
+}
+.div-dont-forget > div{
+   
+    width: 27rem;
+    padding: 2rem;
+}
+.div-hr{
+    width: 66%;
+    display: inline-block;
+    justify-content: center;
+}
+.center-hr{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    
+}
