@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", e =>{
     // console.log(changeBackg)
     
     codigoEmergente({
-        url: "/starter-code/spaceTurism.html",
+        url: "spaceTurism.html",
         exito: (contHtml) => articleElem.innerHTML = contHtml,
         // error: (mensajeInt) => articleElem.innerHTML = `<p>Hubo un error: ${mensajeInt} => ${xmlApi.statusText} </p>`,
     })
