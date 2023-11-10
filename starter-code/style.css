@@ -74,7 +74,7 @@ h1,h2,h3,h4,.subheading1{
 
 
 .bg-image{
-  background-image: url("./assets/destination/background-destination-desktop.jpg");
+  background-image: url("/starter-code/assets/home/background-home-desktop.jpg");
    background-repeat: no-repeat;
    height: 100vh;
    background-position: center;
