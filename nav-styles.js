@@ -28,17 +28,15 @@ function codigoEmergente (opciones){
 
 
 
-
+let backgroundIMG = document.querySelector(".bg-image")
 
 
 let clickBg = ( ) => {
-
-
     document.addEventListener("click" , e=>{
-
-        if(e.target.matches(".div-nav-style").value === "change-bg-image"){
-            bgArticle.className.toggle("bg-image2")
-            // console.log(e.target)
+         let loc = location.pathname
+        if(e.target.matches(loc).href === "/starter-code/destination-moon.html"){
+            backgroundIMG.className.add("bg-image2")
+            console.log(e.target)
             console.log(buttonNav)
             
             
@@ -58,11 +56,11 @@ function staileNavBar (){
 
     // location pathname NO ES EL LINK, ES EL ARCHIVO HTML
     let $pagina = location.pathname
-
+    // console.log($pagina)
     optionsNav.forEach(e =>{
         let enlace = e.getAttribute("href")
 
-        if($pagina.includes(enlace)){
+        if($pagina.includes("href")){
             e.classList.add("onfocus")
         }
     })
