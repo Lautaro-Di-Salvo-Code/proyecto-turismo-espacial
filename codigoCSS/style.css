@@ -182,16 +182,15 @@ main >*{
 
 
 hr{
-  /* display: inline; */
+  
   position: relative;
-  top: 2.7rem;
-  width: 50rem;
+  top: 5px;
+  width: 49rem;
   font-size: 3px !important;
   height: 2px !important;
 }
-.div-hr{
-  position: absolute;
-  top: -5rem;
+.style-hrdiv{
   transform: translateX(5%);
+
 }
 

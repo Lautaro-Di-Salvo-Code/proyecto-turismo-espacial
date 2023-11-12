@@ -42,13 +42,14 @@
 
 
 .line-and-logo-nav{
-    width: 50%;
-    display: inline-flex;
+    width: 70%;
+    display: flex;
+    /* flex-direction: row; */
     align-items: center;
 }
 
 .line-and-logo-nav div:last-child{
-    display: inline-flex;
+    display: flex;
     align-items: center;
 }
 /* .onfocus{

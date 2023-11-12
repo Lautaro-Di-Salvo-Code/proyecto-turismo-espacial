@@ -109,14 +109,3 @@ hr{
     width: 27rem;
     padding: 2rem;
 }
-.div-hr{
-    width: 66%;
-    display: inline-block;
-    justify-content: center;
-}
-.center-hr{
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
-    
-}
