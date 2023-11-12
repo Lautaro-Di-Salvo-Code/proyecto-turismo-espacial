@@ -180,3 +180,18 @@ main >*{
   height:15rem ;
 }
 
+
+hr{
+  /* display: inline; */
+  position: relative;
+  top: 2.7rem;
+  width: 50rem;
+  font-size: 3px !important;
+  height: 2px !important;
+}
+.div-hr{
+  position: absolute;
+  top: -5rem;
+  transform: translateX(5%);
+}
+

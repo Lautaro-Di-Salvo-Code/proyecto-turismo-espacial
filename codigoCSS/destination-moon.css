@@ -10,6 +10,21 @@
     top: 10rem;
 }
 
+
+hr{
+    /* display: inline; */
+    position: relative;
+    top: 2.7rem;
+    width: 50rem;
+    font-size: 3px !important;
+    height: 2px !important;
+  }
+  .div-hr{
+    position: absolute;
+    top: -5rem;
+    transform: translateX(5%);
+  }
+  
 .nav-planets{
     width: 100%;
     display: inline-flex;
