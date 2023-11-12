@@ -1,5 +1,6 @@
 
 @import url(/codigoCSS/style.css);
+@import url(/codigoCSS/tecnology.css);
 
 :root{
     --text-color: white;
@@ -181,14 +182,7 @@ main >*{
 }
 
 
-/* hr{
-  
-  position: relative;
-  top: 5px;
-  width: 49rem;
-  font-size: 3px !important;
-  height: 2px !important;
-} */
+
 .style-hrdiv{
   transform: translateX(5%);
 
@@ -199,3 +193,5 @@ main >*{
   position: relative;
   top: .3rem;
 }
+
+

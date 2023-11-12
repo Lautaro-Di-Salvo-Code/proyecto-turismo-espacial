@@ -1,0 +1,81 @@
+/* .div-crew-tecnology{
+} */
+
+.tecnology-style >*{
+    color: white;
+}
+
+.article-tecnology{
+    
+    display: grid;
+    grid-template-columns: 27% 39% 30%;
+    /* width: 100%; */
+}
+.tittle-meet-tecnology{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    font-size: 2rem;
+}
+.div-tittle-tecnology{
+    
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.section-title-tec{
+    width: 100%;
+}
+.nav-crew-tecnology{
+    margin: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 15%;
+    
+    
+}
+.nav-crew-tecnology a{
+    font-size:50px;
+    margin: .7rem;
+    padding: 2rem;
+    border-radius: 50%;
+    border: 1px solid white;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.nav-crew-tecnology a:hover{
+    background-color:white;
+    color: black;
+    transition: ease-in-out .5s;
+}
+.nav-crew-tecnology a:not(:hover){
+    transition: ease-in-out .5s;
+    
+}
+
+.section-about-tecnology >*{
+    padding: 1rem;
+}
+
+.div-launch-vehicle{
+    padding: 2rem;
+    width: 30rem;
+}
+/* .text-terminology-style p{
+    font-size: 3rem;
+
+} */
+.parr-launch-veh{
+    font-size: 3rem;
+        font-family: 'Bellefair', serif;
+        text-transform: uppercase;
+
+}
+
+.image-veh img{
+    height: 27rem;
+}
