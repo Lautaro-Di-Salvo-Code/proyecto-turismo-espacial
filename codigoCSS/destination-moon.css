@@ -11,19 +11,7 @@
 }
 
 
-hr{
-    /* display: inline; */
-    position: relative;
-    top: 2.7rem;
-    width: 50rem;
-    font-size: 3px !important;
-    height: 2px !important;
-  }
-  .div-hr{
-    position: absolute;
-    top: -5rem;
-    transform: translateX(5%);
-  }
+
   
 .nav-planets{
     width: 100%;
@@ -108,4 +96,17 @@ hr{
    
     width: 27rem;
     padding: 2rem;
+}
+
+.center-hr{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.center-hr > div {
+    width: 62%;
+}
+.hr-planets{
+    
+    width: 100%;
 }
