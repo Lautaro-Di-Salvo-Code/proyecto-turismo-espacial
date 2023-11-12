@@ -132,6 +132,16 @@ document.addEventListener("DOMContentLoaded", e =>{
                 
             })
             
+        }else if(e.target.matches(".nav-crew-tecnology a")){
+            codigoEmergente({
+                url: e.target.href,
+                
+                exito: (contHtml) => articleElem.innerHTML = contHtml,
+                
+                // error: (mensajeInt) => articleElem.innerHTML = `<p>Hubo un error: ${mensajeInt} => ${xmlApi.statusText} </p>`
+                
+            })
+            
         }
 
     
