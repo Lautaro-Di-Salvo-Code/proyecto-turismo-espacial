@@ -8,7 +8,7 @@
 .article-tecnology{
     
     display: grid;
-    grid-template-columns: 27% 39% 30%;
+    grid-template-columns: 27% 43% 30%;
     /* width: 100%; */
 }
 .tittle-meet-tecnology{
@@ -77,5 +77,5 @@
 }
 
 .image-veh img{
-    height: 27rem;
+    height: 30rem;
 }
