@@ -181,16 +181,21 @@ main >*{
 }
 
 
-hr{
+/* hr{
   
   position: relative;
   top: 5px;
   width: 49rem;
   font-size: 3px !important;
   height: 2px !important;
-}
+} */
 .style-hrdiv{
   transform: translateX(5%);
 
 }
-
+.div-content-hr{
+  width: 93%;
+  z-index: 999;
+  position: relative;
+  top: .3rem;
+}

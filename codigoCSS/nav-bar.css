@@ -42,15 +42,15 @@
 
 
 .line-and-logo-nav{
-    width: 70%;
     display: flex;
-    /* flex-direction: row; */
+    
     align-items: center;
+    width: 50%;
 }
 
-.line-and-logo-nav div:last-child{
-    display: flex;
-    align-items: center;
+.line-and-logo-nav > div >img{
+    max-width: 100rem;
+    
 }
 /* .onfocus{
     cursor: pointer;
