@@ -4,15 +4,14 @@
 } */
 
 img{
-    max-width: 100% !important;
+    max-width: auto !important;
 }
 
 .article-engineer{
    
     display: grid;
-    grid-template-columns: 60% 30%;
-    
-    width: 100%;
+    grid-template-columns: 72% 30%;    
+    width: 90%;
     
   
     
@@ -39,8 +38,9 @@ img{
 
 
 .img-crew{
-    height:30% !important;
     width:auto ;
+    height:20% !important;  
+    /* padding: 3rem; */
 }
 .a-crew-styles{
     height: 50vh;
@@ -50,7 +50,7 @@ img{
 }
 .content-image-crew{
     padding: 1rem;
-    margin-top: 10vh ;
+    margin-top: 3vh ;
 }
 .nav-crew-buttons{
     padding: 1.5rem;
@@ -85,7 +85,7 @@ img{
 }
 
 .ansari-style{
-    margin: 10% 0;
+    margin: 7% 0;
 }
 .ansari-style p{
     font-size: 3rem;
@@ -100,7 +100,7 @@ img{
 } */
 .flight-eng{
     
-    margin: 2rem 0;
+    padding: 1rem 1rem;
 }
 .div-crew-styles>*{
     width: fit-content;
@@ -110,7 +110,7 @@ img{
     justify-content: flex-start;
 }
 .div-crew-styles{
-    padding: 1rem;
+    padding: 0 2rem;
     width: 100%;
     height: fit-content;
 }
@@ -119,4 +119,8 @@ img{
     display: flex;
     height: fit-content;
     width: fit-content;
+}
+
+.ansari-size-correct{
+    max-width: 110%;
 }
