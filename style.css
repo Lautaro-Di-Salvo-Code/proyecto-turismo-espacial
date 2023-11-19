@@ -135,6 +135,14 @@ main >*{
 
 }
 
+.div-explore:hover{
+  outline: 2rem solid rgba(255, 255, 255, 0.323);
+  transition: ease-in-out  .3s;
+}
+.div-explore:not(:hover){
+  transition: ease-in-out .3s;
+
+}
 .parr-spacetravel-style p{
   font-family: var(--FONTFAMILY-BELLEFAIR);
     height: fit-content;
