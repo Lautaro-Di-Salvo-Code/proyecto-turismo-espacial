@@ -28,8 +28,8 @@ body{
   font-size: 1rem;
   
   position: relative;
-  overflow-x:hidden;
-  overflow-y:hidden;
+  /* overflow-x:hidden; */
+  /* overflow-y:hidden; */
 }
 
 a{
@@ -110,19 +110,7 @@ main >*{
   cursor: pointer;
   margin: 7rem 0;
 }
-/* .div-explore:hover{
-  transition: all .6s;
-  
-} */
-.div-explore:hover{
-  outline: solid 3rem rgba(255, 255, 255, 0.201);
-  transition:ease-out .6s;
-  
-}
-.div-explore:not(:hover){
-  transition: ease-out .6s;
 
-}
 
  
 .you-want-travel-style, .space-text{
