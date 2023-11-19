@@ -52,7 +52,7 @@ img{
 }
 .content-image-crew{
     
-    margin-top: 3vh ;
+    /* margin-top: 3vh ; */
     height:8vh;
     display: flex;
     align-content:end ;
@@ -123,7 +123,7 @@ img{
     
     width: 160%;
     
-    height: 85vh;
+    height: 84vh;
 }
 
 .styles-flight{

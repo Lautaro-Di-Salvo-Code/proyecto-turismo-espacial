@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", e =>{
     // console.log(changeBackg)
     
     codigoEmergente({
-        url: "/spaceTurism.html",
+        url: "spaceTurism.html",
         exito: (contHtml) => articleElem.innerHTML = contHtml,
         // error: (mensajeInt) => articleElem.innerHTML = `<p>Hubo un error: ${mensajeInt} => ${xmlApi.statusText} </p>`,
     })
@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", e =>{
         // console.log(e.target)
         if(e.target.matches(".div-nav-style a") && linkdestin.pathname.includes(value="change-bg-destin")){
             backg.className.toggle("destination")
-            // document.querySelectorAll(backg).className.add("")
+            
             
         }
 
@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", e =>{
         }
         
         // barra de navegacion principal
-        if(e.target.matches(".div-nav-style a")){
+        if(e.target.matches(".div-nav-style a") || e.target.matches(".div-nav-style-mobile a")){
             codigoEmergente({
                 url: e.target.href,
                 exito: (contHtml) => articleElem.innerHTML = contHtml,

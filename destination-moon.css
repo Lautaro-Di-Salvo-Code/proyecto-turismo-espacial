@@ -4,15 +4,14 @@
 .article-moon>*{
     color: white;
 }
-.article-moon{
+/* .article-moon{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 50%);
     align-content: center;
     
     height: 80vh;
-
-}
+} */
 
 
 
@@ -95,10 +94,6 @@
     font-size: 2rem;
     font-family: var(--FONTFAMILY-BELLEFAIR);
     
-}
-.moon-pick-elements > img{
-    height: 25rem;
-    width: auto;
 }
 
 .div-dont-forget{

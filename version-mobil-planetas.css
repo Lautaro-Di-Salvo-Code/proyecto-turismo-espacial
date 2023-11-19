@@ -1,0 +1,50 @@
+@media screen and (max-width: 900px){
+    
+
+    .article-moon{
+        width: 100%;
+        display: grid;
+        /* grid-template-columns: repeat(2, 50%); */
+        grid-template-rows: repeat(2, 50%);
+        grid-template-columns: 100%;
+        /* align-content: center; */
+        justify-content: center;
+        height: 80vh;
+        z-index: 2;
+    }
+    .moon-pick-elements > img{
+        height: 23vh;
+        width: 64%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 900px){
+    .moon-pick-elements > img{
+        height: 25rem;
+        width: auto;
+    }
+    
+    
+    .article-moon{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        align-content: center;
+        
+        height: 80vh;
+    }
+    
+
+}
