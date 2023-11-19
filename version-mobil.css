@@ -138,19 +138,6 @@
         display: flex;
         justify-content: center;
     }
-    .div-explore{
-        margin-top: 13rem  !important;
-        z-index: 4;
-    }
-    .div-explore:hover{
-        outline: solid 3rem rgba(255, 255, 255, 0.201);
-        transition:ease-out .6s;
-        
-      }
-      .div-explore:not(:hover){
-        transition: ease-out .6s;
-      
-      }
     /* 
     .div-nav-style{
     cursor: pointer;
