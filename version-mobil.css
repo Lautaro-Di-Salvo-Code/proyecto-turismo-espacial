@@ -1,0 +1,220 @@
+
+@media screen and (max-width:900px ) {
+   
+    .div-grid{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+    }
+    .bg-image-mobile{
+        
+        background-image: url("/starter-code/assets/home/background-home-mobile.jpg");
+        background-repeat: no-repeat;
+        height: 100vh;
+        background-position: center;
+        object-fit:fill;
+        background-size:cover;
+        position: relative;
+        
+        
+        
+    }
+    .arrow:hover{
+        background-color:rgba(255, 255, 255, 0.176);
+    }
+    .arrow{
+        padding: 1rem;
+        z-index: 999;
+    }
+    .button-none{
+        display: none;
+    }
+    .close-x:hover{
+        background-color:rgba(255, 255, 255, 0.176);
+
+    }
+    .close-x{
+        /* display: none; */
+        z-index: 999;
+    }
+   svg{
+    cursor: pointer;
+    size: 2rem;
+   }
+   
+   
+    .line-and-logo-nav-mob img{
+        margin: 1rem;
+    }
+    .line-and-logo-nav-mob{
+        display: flex;
+        
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .haburguesa-div{
+        margin: 1rem;
+        z-index: 980;
+    }
+
+    .nav-position{
+        display: none;
+    }
+    .div-nav-style-mobile{
+        padding: 1.3rem 5rem 1.3rem 1rem;
+    }
+    .sizing-nav-mobile{
+        margin-top: 6rem;
+    }
+    .nav-style-mobile{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        backdrop-filter: blur(3rem);
+        /* width: 50%; */
+        /* margin-top: 1rem;
+        padding: 0 6rem 0 3rem; */
+        /* height: 4rem; */
+        background-color: rgba(240, 255, 255, 0.055);
+        backdrop-filter: blur(.3rem);    
+        transition: ease .5s;
+        transform: translateX(34%);
+        z-index: 999;
+        
+        display: flex;
+        flex-direction:column;
+        
+        justify-content: space-between;
+        /*
+        align-items: center;   
+        */
+    }
+    .off{
+        transition: ease .5s;
+        transform: translateX(115%);
+        
+    }
+
+
+
+    .div-content-hr{
+        display:none ;
+    }
+    .div-grid{
+    position: relative;
+    top: 5rem;
+        height: 60%;
+        width: 100%;
+        display: grid ;
+        grid-template-rows: repeat(3, 23%);
+    
+    
+    }
+    .parr-spacetravel-style{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+    .space-style{
+        display: flex;
+        justify-content: center;
+    }
+    .you-want-travel-style{
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        font-size: 4vw;
+    }
+    
+    .space-text{
+        font-size: 20vw !important;
+    }
+    .article-explore{
+        display: flex;
+        justify-content: center;
+    }
+    /* 
+    .div-nav-style{
+    cursor: pointer;
+    height: 4rem;
+    display:inline-flex;
+    align-items: center;
+    
+} */
+}
+
+@media screen and (min-width:900px ) {
+    .nav-position-mobile{
+        display: none ;
+    }
+    .article-info-home{
+        margin: auto;
+        padding: 2rem;
+    }
+    .article-info-home >*{
+        text-align: center;
+    }
+    
+    .bg-image{
+        background-image: url("/starter-code/background-home-desktop.jpg");
+        background-repeat: no-repeat;
+        height: 100vh;
+        background-position: center;
+        object-fit:fill;
+        background-size:cover;
+        position: relative;
+    }
+    .parr-spacetravel-style{
+    
+        margin: 3rem 0;
+        width: fit-content;
+    }
+    .article-info-home{
+        margin: 1rem;
+        padding: 2rem;
+    }
+    .div-grid p{
+        text-align: center;
+    }
+    .you-want-travel-style p{
+        
+        text-align: center;
+    }
+    .space-text{
+        text-align: center;
+    }
+    .div-grid{
+    
+        height: 60%;
+        width: 100%;
+        display: grid ;
+        grid-template-columns: 70% 30%;
+        text-align: center;
+        justify-content: center;
+        /* margin: auto; */
+    
+    }
+    .space-style{
+        margin: 1rem auto;
+    }
+    .nav-style{
+        width: 50%;
+        margin-top: 1rem;
+        padding: 0 6rem 0 3rem;
+        height: 4rem;
+        backdrop-filter: blur(.3rem);    
+        display: flex;
+        flex-direction:row;
+        align-items: center;   
+        justify-content: space-evenly;
+    }
+  
+    /* article{
+        display: inline;
+
+    } */
+}

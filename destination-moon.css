@@ -1,4 +1,5 @@
 
+@import url(style.css);
 
 .article-moon>*{
     color: white;
@@ -7,7 +8,10 @@
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    top: 10rem;
+    align-content: center;
+    
+    height: 80vh;
+
 }
 
 
@@ -31,7 +35,9 @@
     margin: 0;
 }
 .title-planet b{
-    font-size: 8rem;
+    font-size: 6rem;
+    font-family: 'Bellefair', serif;
+    text-transform: uppercase;
 }
 .center-title-planets{
     width: 100%;
@@ -39,7 +45,12 @@
     justify-content: center;
     padding: 1rem;
 }
+.div-link-planets a{
+    font-family: var(--FONTFAMILY-BELLEFAIR);
+    text-transform: uppercase;
+}
 .div-link-planets{
+    
     padding: 1rem;
     cursor: pointer;
 }
@@ -47,25 +58,29 @@
     box-shadow: 0px .2rem 0px 0px rgba(255, 255, 255, 0.66);
 }
 
+.position-info-distance >*{
+    font-family: var(--FONTFAMILY-BELLEFAIR);
+    text-transform: uppercase;
+}
 .position-info-distance{
     display: grid;
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(2, 30%);
+    justify-content: center;
 }
+
 .styles-info-distance{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
 }
 .styles-info-time{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
 }
-.styles-info-distance >*{
-    text-align: center;
-}
+
 .styles-info-time >*{
-    text-align: center;
+    text-align: start;
 }
 
 .moon-styles{
@@ -78,15 +93,14 @@
     padding: 1rem;
     margin-bottom: 4rem;
     font-size: 2rem;
+    font-family: var(--FONTFAMILY-BELLEFAIR);
+    
 }
 .moon-pick-elements > img{
     height: 25rem;
     width: auto;
 }
-/* .div-dont-forget div{
-    display: flex;
-    justify-content: center;
-} */
+
 .div-dont-forget{
 
     display: flex;
@@ -96,6 +110,9 @@
    
     width: 27rem;
     padding: 2rem;
+}
+.div-dont-forget p{
+    font-family: var(--FONTFAMILY-BELLEFAIR);
 }
 
 .center-hr{
@@ -110,3 +127,12 @@
     
     width: 100%;
 }
+
+
+.end-numbers{
+    padding-top: .7rem;
+    font-size: 1.4rem;
+    font-family: 'Bellefair', serif;
+}
+
+

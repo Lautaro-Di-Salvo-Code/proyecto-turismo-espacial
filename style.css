@@ -1,0 +1,192 @@
+
+
+@import url(tecnology.css);
+
+
+:root{
+    --text-color: white;
+    /* --CIRCULO-EXPLORE:; */
+    --FONTSIZE-EXPLORE: 5vw;
+    /* --FONTSIZE-SOYOUWANT: ; */
+    /* --FONTSIZE-LETSFACEIT: ; */
+    --FONTSIZE-SPACE: 7vw;
+    --FONTFAMILY-BELLEFAIR:'Barlow Condensed', sans-serif;
+    --FONTFAMILY-ELEGANTFONT: 'Bellefair', serif;
+
+}
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+body{
+
+  
+  height: 100vh;
+  
+  margin: 0;
+  
+  
+  font-size: 1rem;
+  
+  position: relative;
+  overflow-x:hidden;
+  overflow-y:hidden;
+}
+
+a{
+    color:var(--text-color)
+}
+
+  
+  h1{
+    font-size: 9.375rem;
+  }
+  
+  h2 {
+    font-size: 6.25rem;
+  }
+  
+  h3{
+    font-size: 3.5rem;
+  }
+  
+  h4{
+    font-size: 2rem;
+  }
+  
+  h5{
+    font-size: 1.75rem;
+  }
+  
+  .subheading1{
+    font-size: 1.75rem;
+  }
+  p{
+    margin: 0;
+  }
+  
+  a{
+    font-size: 1rem;
+    text-decoration: none;
+  }
+
+.div-grid p{
+    text-align: center;
+}
+  .main-article{
+    margin: auto;
+    height: auto;
+   
+   
+    max-width: 1200px;
+  }
+
+
+
+.los-url{
+  font-family: var(--FONTFAMILY-BELLEFAIR);
+  text-transform: uppercase;
+}
+
+main{
+ 
+    
+    height: auto;
+    /* position: absolute; */
+    width: 100%;
+
+}
+main >*{
+    color: var(--text-color);
+}
+
+.div-explore{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 15rem;
+  height: 15rem;
+  width: 15rem;
+  cursor: pointer;
+  margin: 7rem 0;
+}
+/* .div-explore:hover{
+  transition: all .6s;
+  
+} */
+.div-explore:hover{
+  outline: solid 3rem rgba(255, 255, 255, 0.201);
+  transition:ease-out .6s;
+  
+}
+.div-explore:not(:hover){
+  transition: ease-out .6s;
+
+}
+
+ 
+.you-want-travel-style, .space-text{
+    letter-spacing: 5px;
+    width: fit-content;
+    text-transform: uppercase;
+}
+.space-text{
+    font-size: 9rem;
+    font-family: 'Bellefair', serif;
+    text-transform: uppercase;
+}
+
+.div-explore p{
+  cursor: pointer;
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: 'Bellefair', serif;
+  text-transform: uppercase;
+  color: black;
+
+}
+
+.parr-spacetravel-style p{
+  font-family: var(--FONTFAMILY-BELLEFAIR);
+    height: fit-content;
+    width: 20rem;
+
+}
+
+
+
+
+.style-content-img{
+  width: 30%;
+  height: auto;
+}
+
+.wheel-explore{
+  position: relative;
+  border-radius: 50%;
+  background-color: rgba(240, 255, 255, 0.444);
+  width: 15rem;
+  height:15rem ;
+}
+
+
+
+.style-hrdiv{
+  transform: translateX(5%);
+
+}
+.div-content-hr{
+  width: 93%;
+  z-index: 999;
+  position: relative;
+  top: .3rem;
+}
+
+.div-spaceT-positionR{
+  height: 80vh;
+  display: flex;
+  align-content: center;
+}
+
+

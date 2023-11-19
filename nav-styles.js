@@ -27,29 +27,6 @@ function codigoEmergente (opciones){
 
 
 
-
-let backgroundIMG = document.querySelector(".bg-image")
-
-
-let clickBg = ( ) => {
-    document.addEventListener("click" , e=>{
-         let loc = location.pathname
-        if(e.target.matches(loc).href === "/starter-code/destination-moon.html"){
-            backgroundIMG.className.add("bg-image2")
-            console.log(e.target)
-            console.log(buttonNav)
-            
-            
-            
-        }
-    })
-
-
-}
-
-
-
-
 function staileNavBar (){
     let optionsNav = document.querySelectorAll(".div-nav-style a")
 
@@ -76,14 +53,14 @@ document.addEventListener("DOMContentLoaded", e =>{
     let articleElem = document.querySelector(".article-original")
     let changeBackg = document.querySelector(".bg-image")
     let crewTeam = document.querySelectorAll("nav-crew-buttons a")
-    clickBg(".bg-image2",".div-nav-style a" )
+    
     
     
     console.log(articleElem)
     // console.log(changeBackg)
     
     codigoEmergente({
-        url: "/codigo html/spaceTurism.html",
+        url: "/spaceTurism.html",
         exito: (contHtml) => articleElem.innerHTML = contHtml,
         // error: (mensajeInt) => articleElem.innerHTML = `<p>Hubo un error: ${mensajeInt} => ${xmlApi.statusText} </p>`,
     })
@@ -95,7 +72,18 @@ document.addEventListener("DOMContentLoaded", e =>{
         
         e.preventDefault(".div-nav-style a")
 
+        let linkdestin = location
 
+        let backg = document.querySelector(".bg-image")
+        // console.log(linkdestin)
+        // console.log(backg)
+        
+        // console.log(e.target)
+        if(e.target.matches(".div-nav-style a") && linkdestin.pathname.includes(value="change-bg-destin")){
+            backg.className.toggle("destination")
+            // document.querySelectorAll(backg).className.add("")
+            
+        }
 
 
         
@@ -151,7 +139,8 @@ document.addEventListener("DOMContentLoaded", e =>{
     
 })
 
-console.log(location)
+
+// console.log(location)
 
 
 
