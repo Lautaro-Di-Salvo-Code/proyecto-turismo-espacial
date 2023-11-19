@@ -138,6 +138,11 @@
         display: flex;
         justify-content: center;
     }
+    .div-explore{
+     
+        margin: 12rem 0 !important ;
+        z-index: 3;
+      }
     /* 
     .div-nav-style{
     cursor: pointer;
@@ -213,7 +218,17 @@
         align-items: center;   
         justify-content: space-evenly;
     }
-    
+    .div-explore{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border-radius: 15rem;
+        height: 15rem;
+        width: 15rem;
+        cursor: pointer;
+        margin: 7rem 0;
+      }
       
   
     /* article{
