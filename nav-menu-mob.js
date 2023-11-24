@@ -26,6 +26,11 @@
                 document.querySelector(".nav-style-mobile").classList.add("off")
                 
             }
+            if(e.target.matches(".los-url")){
+                document.querySelector(".arrow").classList.remove("button-none")
+                document.querySelector(".nav-style-mobile").classList.add("off")
+                
+            }
         })
 })()
 

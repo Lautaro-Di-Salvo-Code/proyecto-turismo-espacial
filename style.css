@@ -85,13 +85,15 @@ a{
 .los-url{
   font-family: var(--FONTFAMILY-BELLEFAIR);
   text-transform: uppercase;
-  height: 4rem;
+  height: 3rem;
   display: flex;
   align-items: center;
+  
 }
-.los-url:hover{
-  border-bottom: 2px solid white;
+.los-url b{
+  padding: 0 .5rem;
 }
+
 
 main{
  
@@ -142,7 +144,7 @@ main >*{
 }
 
 .div-explore:hover{
-  outline: 2rem solid rgba(255, 255, 255, 0.323);
+  outline: 5rem solid rgba(255, 255, 255, 0.13);
   transition: ease-in-out  .3s;
 }
 .div-explore:not(:hover){
