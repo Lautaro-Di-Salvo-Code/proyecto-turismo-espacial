@@ -73,7 +73,7 @@
 .styles-info-distance{
     display: flex;
     flex-direction: column;
-    justify-content: start;
+
 }
 .styles-info-time{
     display: flex;
@@ -89,26 +89,14 @@
     display: flex;
     justify-content: center;
 }
-.moon-pick-elements > p{
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
-    margin-bottom: 4rem;
-    font-size: 2rem;
-    font-family: var(--FONTFAMILY-BELLEFAIR);
-    
-}
+
 
 .div-dont-forget{
 
     display: flex;
     justify-content: center;
 }
-.div-dont-forget > div{
-   
-    width: 27rem;
-    padding: 2rem;
-}
+
 .div-dont-forget p{
     font-family: var(--FONTFAMILY-BELLEFAIR);
 }

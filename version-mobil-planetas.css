@@ -4,12 +4,12 @@
     .article-moon{
         width: 100%;
         display: grid;
-        /* grid-template-columns: repeat(2, 50%); */
+        
         grid-template-rows: repeat(2, 50%);
         grid-template-columns: 100%;
-        /* align-content: center; */
+        
         justify-content: center;
-        height: 80vh;
+        height: 60vh;
         z-index: 2;
     }
     .moon-pick-elements > img{
@@ -20,7 +20,53 @@
         margin: auto;
     }
     
-
+    .moon-pick-elements > p{
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        margin-bottom: 0;
+        font-size: 2rem;
+        font-family: var(--FONTFAMILY-BELLEFAIR);
+    }
+    .moon-pick-elements > img{
+        height: 11rem;
+        width: auto;
+    }
+    .div-dont-forget > div{
+    
+        width: 27rem;
+        padding:0 3rem;
+    }
+    .title-planet b{
+        font-size: 14vw;
+        font-family: 'Bellefair', serif;
+        text-transform: uppercase;
+    }
+    .position-info-distance{
+        display: grid;
+        grid-template-rows: 50% 50%;
+        grid-template-columns: 60%;
+        margin: 0 auto;
+        height: 8rem;
+        justify-content: center;
+    }
+    .styles-info-distance >*{
+        text-align: center;
+    }
+    .styles-info-time >*{
+        text-align: center;
+    }
+    .styles-info-distance{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .styles-info-time{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
 }
 
 
@@ -31,11 +77,21 @@
 
 
 @media screen and (min-width: 900px){
-    .moon-pick-elements > img{
-        height: 25rem;
-        width: auto;
+    .div-dont-forget > div{
+   
+        width: 27rem;
+        padding: 2rem;
     }
     
+    .moon-pick-elements > p{
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        margin-bottom: 4rem;
+        font-size: 2rem;
+        font-family: var(--FONTFAMILY-BELLEFAIR);
+        
+    }
     
     .article-moon{
         width: 100%;
