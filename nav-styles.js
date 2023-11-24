@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", e =>{
         }
         
         // barra de navegacion principal
-        if(e.target.matches(".div-nav-style a") || e.target.matches(".div-nav-style-mobile a")){
+        if( e.target.matches(".los-url") || e.target.matches(".div-nav-style-mobile a")){
             codigoEmergente({
                 url: e.target.href,
                 exito: (contHtml) => articleElem.innerHTML = contHtml,
@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", e =>{
                 
             })
             // acciones en la barra de navegacion planetas
-        }else if(e.target.matches(".div-link-planets a")){
+        }else if(e.target.matches(".nav-planets a")){
             codigoEmergente({
                 url: e.target.href,
                 

@@ -85,6 +85,12 @@ a{
 .los-url{
   font-family: var(--FONTFAMILY-BELLEFAIR);
   text-transform: uppercase;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+}
+.los-url:hover{
+  border-bottom: 2px solid white;
 }
 
 main{
