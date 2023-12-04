@@ -81,7 +81,16 @@ a{
   }
 
 
+.destination{
+    background-image: url("/starter-code/assets/destination/background-destination-desktop.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    object-fit:fill;
+    background-size:cover;
+    position: relative;
 
+}
 .los-url{
   font-family: var(--FONTFAMILY-BELLEFAIR);
   text-transform: uppercase;

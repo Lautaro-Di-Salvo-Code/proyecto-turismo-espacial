@@ -14,6 +14,7 @@ function codigoEmergente (opciones){
         if(xmpAPI.status >= 200 && xmpAPI.status < 299){
             let contHtml= xmpAPI.response
             exito(contHtml)
+           
             
         }
         
@@ -74,18 +75,20 @@ document.addEventListener("DOMContentLoaded", e =>{
 
         let linkdestin = location
 
-        let backg = document.querySelector(".bg-image")
-        // console.log(linkdestin)
-        // console.log(backg)
         
-        // console.log(e.target)
-        if(e.target.matches(".div-nav-style a") && linkdestin.pathname.includes(value="change-bg-destin")){
-            backg.className.toggle("destination")
+        
+        // if(e.target.matches(".nav-style > a").href != "spaceTurism.html" ){
+        //     document.querySelector(".bg-image").classList.toggle("destination")
             
             
-        }
+            
+        // }else{
 
+        // }
 
+        // if( e.target.matches(".nav-style-mobile a").href !== "spaceTurism.html" ){
+
+        // }
         
         if(e.target.matches(".nav-crew-buttons a") ){
             // console.log(e.target)
