@@ -1,23 +1,26 @@
 
 @import url(style.css);
 
+
 img{
     max-width: auto !important;
 }
 
-.article-engineer{
+.article-engineer-desk{
    
-    display: grid;
-    grid-template-columns: 64% 28%;    
+      
     width: 90%;
     height: 80vh;
     align-content: center;
     
-  
+    margin: 0 3rem;
     
    
 }
-.article-engineer > *{
+.article-engineer-mob{
+    display: none;
+}
+.article-engineer-desk > *{
     color: white;
 
 }
@@ -50,13 +53,61 @@ img{
     flex-direction: column;
     justify-content: flex-start;
 }
-.content-image-crew{
+
+
+
+.content-image-crew-comander{
     
-    /* margin-top: 3vh ; */
-    height:8vh;
+    height:73vh;
     display: flex;
+    flex-wrap: wrap;
     align-content:end ;
+    background-image: url(/starter-code/assets/crew/image-douglas-hurley.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
+.content-image-crew-specialist{
+    
+    height:73vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:end ;
+    background-image: url(/starter-code/assets/crew/image-mark-shuttleworth.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.content-image-crew-pilot{
+    
+    height:73vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:end ;
+    background-image: url(/starter-code/assets/crew/image-victor-glover.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.content-image-crew-flight{
+    
+    height:73vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:end ;
+    background-image: url(/starter-code/assets/crew/image-anousheh-ansari.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.section-info-desk{
+    height: 62vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
 .nav-crew-buttons{
     position: relative;
     top: 3vh;
@@ -105,16 +156,20 @@ img{
     padding: 1rem 1rem;
 }
 
-.div-crew-styles{
+.div-crew-styles-desk{
+    display: grid;
+    grid-template-columns: repeat(2, 53%);
     padding: 0 2rem;
-    width: 140%;
+    width: 100%;
     height: fit-content;
+    position: relative;
+    top: 6rem;
 }
 
 .dimention-text{
     display: flex;
     height: auto;
-    width: 30%;
+    width: 75%;
     
 }
 
