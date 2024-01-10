@@ -8,7 +8,7 @@
     }
     .bg-image-mobile{
         
-        background-image: url("/starter-code/assets/home/background-home-mobile.jpg");
+        background-image: url("/starter-code/assets/home/background-home-mobile.webp");
         background-repeat: no-repeat;
         height: 100vh;
         background-position: center;
@@ -160,7 +160,7 @@
     }
     
     .bg-image{
-        background-image: url("/starter-code/background-home-desktop.jpg");
+        background-image: url("/starter-code/background-home-desktop.webp");
         background-repeat: no-repeat;
         height: 100vh;
         background-position: center;
