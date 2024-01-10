@@ -13,7 +13,7 @@
     .styles-links-tecnology{
         display: flex;
         justify-content: center;
-        margin: auto;
+        /* margin: auto; */
     }
     .section-about-tecnology >* {
         padding: .5rem;
@@ -83,12 +83,12 @@
         padding: 13px;
         border-radius: 50%;
         border: 1px solid white;
-        height: 1rem;
+        height: auto;
         width: 2rem;
         display: flex;
         align-items: center;
         justify-content: center;
         z-index: 999;
-        /* cursor: none; */
+        
     }
 }
