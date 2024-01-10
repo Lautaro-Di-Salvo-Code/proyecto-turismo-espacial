@@ -142,7 +142,7 @@
     
     
     .ansari-style p{
-        font-size: 8vw;
+        font-size: 6vw;
         font-family: 'Bellefair', serif;
         text-transform: uppercase;
     
@@ -180,7 +180,9 @@
         
     }
     
-    
+    .ansari-style {
+        width: auto;
+    }
     .correct-size-scpecialist{
         
         width: auto;
@@ -189,7 +191,7 @@
     }
     
     .styles-flight{
-        font-size: 8vw;
+        font-size: 1rem;
         font-family: 'Bellefair', serif;
         text-transform: uppercase;
     }

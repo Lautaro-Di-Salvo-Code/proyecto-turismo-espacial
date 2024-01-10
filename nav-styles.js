@@ -67,6 +67,8 @@ document.addEventListener("DOMContentLoaded", e =>{
     })
     
     
+    let destinoBG = document.getElementById("#destination").id
+    console.log(destinoBG)
     
     
     document.addEventListener('click' , e =>{
@@ -75,10 +77,13 @@ document.addEventListener("DOMContentLoaded", e =>{
 
         let linkdestin = location
 
-        
-        
-        // if(e.target.matches(".nav-style > a").href != "spaceTurism.html" ){
-        //     document.querySelector(".bg-image").classList.toggle("destination")
+
+
+        // if(e.target.matches("a").includes(destinoBG)  ){
+        //     changeBackg.classList.remove("bg-image")
+        //     changeBackg.classList.add("destination")
+        //     console.log(e.target)
+        //     // document.querySelector(".bg-image").classList.remove("destination")
             
             
             
