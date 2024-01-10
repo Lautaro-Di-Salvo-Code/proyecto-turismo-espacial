@@ -1,0 +1,94 @@
+@media screen and (max-width: 900px) {
+
+    .tecnology-style{
+        display: none;
+    }
+    .tittle-meet-tecnology{
+        font-size: 8vw;
+    }
+    .tecnology-style-mobile-vertion{
+        display: block;
+    }
+   
+    .styles-links-tecnology{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    .section-about-tecnology >* {
+        padding: .5rem;
+    }
+    .div-tittle-tecnology{
+    
+        display: grid;
+        grid-template-rows: 40%;
+        grid-template-columns: 100%;
+    }
+    .parr-launch-veh{
+        font-size: 8vw;
+    }
+    .article-tecnology{
+        
+        display: grid;
+        grid-template-rows: 27% 33% 37%;
+        grid-template-columns: 100%;
+        height: 41vh;
+        align-content: center;
+        
+    }
+    .div-text-capsule{
+        width: 90%;
+    }
+    .image-veh > img {
+        width: 100%;
+        height: auto;
+    }
+    .text-terminology-style{
+        text-align: center;
+        display: flex ;
+        justify-content: center;
+    }
+    .parr-launch-veh{
+        text-align: center;
+    }
+    .div-text-capsule{
+        display: flex ;
+        justify-content: center;
+    }
+    .div-launch-vehicle{
+        display: flex ;
+        justify-content: center;
+        margin: auto;
+        width: 81%;
+        text-align: center;
+        /* text-align: center; */
+    }
+    .div-launch-vehicle{
+        padding: 1rem;
+    }
+    .div-launch-vehicle p{
+        font-size: 1rem;
+    }
+    .nav-crew-tecnology{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 0;
+        width: 71%;
+    }
+    
+    .nav-crew-tecnology a{
+        font-size: 33px;
+        margin: 0.7rem 0;
+        padding: 13px;
+        border-radius: 50%;
+        border: 1px solid white;
+        height: 1rem;
+        width: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 999;
+        /* cursor: none; */
+    }
+}

@@ -2,6 +2,9 @@
 @import url(style.css);
 
 
+
+
+
 .tecnology-style >*{
     color: white;
 }
@@ -17,7 +20,7 @@
 }
 .tittle-meet-tecnology{
     display: flex;
-    justify-content: start;
+    justify-content: center;
     padding: 2rem;
     font-size: 2rem;
     font-family: var(--FONTFAMILY-BELLEFAIR);
@@ -77,6 +80,7 @@
 }
 .div-launch-vehicle p{
     height:100%;
+    font-size: 22px;
 }
 .div-launch-vehicle{
     padding: 2rem;
@@ -105,4 +109,7 @@
 .img-capsule-size{
     height: 27rem !important;
 
+}
+.tecnology-style-mobile-vertion{
+    display: none;
 }
